@@ -1,0 +1,117 @@
+{
+  "hullName": "Tempest",
+  "hullId": "koprulu_tempest",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/koprulu_tempest.png",
+  "style": "HIGH_TECH",
+  "height": 200,
+  "width": 206,
+  "center": [103, 114],
+  "collisionRadius": 137,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 118.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "koprulu_protoss_shields"
+  ],
+  "builtInWeapons": {
+    "WS0001": "realitydisruptor"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [34, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 45,
+      "locations": [25, 80]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -45,
+      "locations": [25, -80]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -135,
+      "locations": [-22, -36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 135,
+      "locations": [-22, 36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69.5, -13],
+      "length": 30,
+      "width": 10,
+      "angle": 175,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69.5, 13],
+      "length": 30,
+      "width": 10,
+      "angle": -175,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50.5, -26.5],
+      "length": 40,
+      "width": 15,
+      "angle": -171.5,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-50.5, 26.5],
+      "length": 40,
+      "width": 15,
+      "angle": 167.5,
+      "contrailSize": 50,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -83, 45,
+    -38.5, 44,
+    10, 102.5,
+    77, 55,
+    86, 14,
+    32.5, 63,
+    -3, -0,
+    32.5, -63,
+    86, -14,
+    77, -55,
+    10, -102.5,
+    -38.5, -44,
+    -83, -45,
+    -114, -0
+  ]
+}

@@ -32,7 +32,7 @@ build {
         copy {
             from 'assets'
             from jar
-            into '.'
+            into 'Release'
         }
     }
 }
@@ -59,10 +59,10 @@ dependencies {
 task release(type: Zip) {
     dependsOn build
     archiveFileName = "${project.name}-${readModInfoJson().version}.zip"
-    destinationDirectory = file(rootDir)
+    destinationDirectory = file('Release')
     from 'assets'
     from jar
-    into project.name
+    into 'Koprulu Sector'
 }
 
 // methods

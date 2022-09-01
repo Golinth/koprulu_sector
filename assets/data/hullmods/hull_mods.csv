@@ -1,0 +1,4 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Advanced Plasma Shields,koprulu_protoss_shields,,,,,,,,TRUE,,0,0,0,0,koprulu_sector.hullmods.ProtossShields,"Advanced plasma shields enable the ship to run shields with %s flux cost and a permanent %s degree coverage.
+
+However, due to their unique nature, these shields can not be turned off.",Provides advanced shields that require 0 flux.,graphics/hullmods/koprulu_protossshields.png

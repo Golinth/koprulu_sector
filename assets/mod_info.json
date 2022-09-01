@@ -1,13 +1,10 @@
 {
-    "id": "mymodid",
-    "name": "My Starsector Mod",
-    "author": "My Name",
-    "utility": true,
-    "version": "1.0.0",
-    "description": "This is my mod that mods the game.",
-    "gameVersion": "0.95a-RC15",
-    "modPlugin": "mymodid.MymodMod",
-    "jars": [
-        "mymodid.jar"
-    ]
+    "id": "koprulu_sector",
+    "name": "Koprulu Sector",
+    "author": "Golinth",
+    "version": "0.0.1",
+    "description": "Adds a plethora of ships, weapons, and fighters based on the races from the Starcraft universe.",
+    "gameVersion": "0.95.1a-RC6",
+    "modPlugin": "koprulu_sector.KopruluSectorMod",
+    "jars": ["koprulu_sector.jar"]
 }
